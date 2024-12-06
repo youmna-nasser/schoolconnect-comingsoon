@@ -6,6 +6,8 @@
     <title>School Connect - Coming Soon</title>
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Poppins:wght@400;600;700&family=Raleway:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Icons for social media -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <style>
         /* General Styles */
         body, html {
@@ -69,6 +71,31 @@
             color: #555;
             margin-top: 10px;
         }
+
+        /* Social Media Section */
+        .social-media {
+            margin-top: 20px;
+        }
+
+        .social-media a {
+            margin: 0 10px;
+            font-size: 1.8rem;
+            text-decoration: none;
+            transition: transform 0.3s ease;
+        }
+
+        .social-media a:hover {
+            transform: scale(1.2);
+        }
+
+        /* Social Media Colors */
+        .fa-facebook {
+            color: #1877F2; /* Facebook blue */
+        }
+
+        .fa-instagram {
+            color: #E1306C; /* Instagram pink */
+        }
     </style>
 </head>
 <body>
@@ -77,6 +104,11 @@
         <h1 class="title">We Are Coming Soon</h1>
         <img src="logo.png" alt="School Connect Logo" class="logo">
         <p class="subtitle">Discover, Connect and Grow Together</p>
+        <!-- Social Media Links -->
+        <div class="social-media">
+            <a href="https://www.facebook.com/profile.php?id=61566758502618" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/schoolconnectapp/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
     </div>
 </body>
 </html>
